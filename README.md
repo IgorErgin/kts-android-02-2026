@@ -1,6 +1,6 @@
 # 📦 Mini Order System
 
-## 🧠 Общая идея проекта
+## 🧠 Общая идея проекта[README.md](README.md)
 
 Проект моделирует простую систему заказов, похожую на интернет-магазин:
 
@@ -95,9 +95,9 @@
 Словесная схема связей:
 
 Product ─┐
-         ├──> Order ────> OrderStatus
+├──> Order ────> OrderStatus
 Product ─┘ │
-           └── implements PriceCalculator
+└── implements PriceCalculator
 
 Order ──> processOrder(order): String
 Order ──> applyDiscount(...)
